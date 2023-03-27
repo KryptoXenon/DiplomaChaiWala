@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Diploma Chai Wala</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <nav class="bg-gray-900 text-white px-8 py-4 flex items-center justify-between">
+        <div class="flex items-center">
+            <span class="font-bold text-lg">Diploma Chai Wala</span>
+        </div>
+        <div class="flex items-center">
+            <a href="home.html" class="mx-4">Home</a>
+            <a href="menu.html" class="mx-4">Menu</a>
+            <a href="about.html" class="mx-4">About</a>
+            <a href="contact.html" class="mx-4">Contact</a>
+            <a href="reserve.html" class="mx-4">Reservation</a>
+            <a href="gallery.html" class="mx-4">Gallery</a>
+            <a href="events.html" class="mx-4">Events</a>
+            <a href="blogs.html" class="mx-4">Blogs</a>
+        </div>
+    </nav>
+
+    <div class="max-w-lg mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
+        <form class="space-y-4">
+            <div>
+                <label class="block mb-1 font-bold" for="name">Name</label>
+                <input class="w-full border-2 border-gray-300 p-2 rounded-lg" type="text" id="name" name="name"
+                    required>
+            </div>
+            <div>
+                <label class="block mb-1 font-bold" for="email">Email</label>
+                <input class="w-full border-2 border-gray-300 p-2 rounded-lg" type="email" id="email" name="email"
+                    required>
+            </div>
+            <div>
+                <label class="block mb-1 font-bold" for="message">Message</label>
+                <textarea class="w-full border-2 border-gray-300 p-2 rounded-lg" id="message" name="message" rows="5"
+                    required></textarea>
+            </div>
+            <button class="bg-blue-500 text-white font-bold py-2 px-4 rounded" type="submit">Send</button>
+        </form>
+    </div>
+
+    <footer class="bg-gray-800 text-white py-4 fixed bottom-0 w-full px-8">
+        <p class="text-center">&copy; 2023 Diploma Chai Wala. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

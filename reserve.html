@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.15/tailwind.min.css">
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto">
+        <nav class="bg-gray-900 text-white px-8 py-4 flex items-center justify-between">
+            <div class="flex items-center">
+                <span class="font-bold text-lg">Diploma Chai Wala</span>
+            </div>
+            <div class="flex items-center">
+                <a href="home.html" class="mx-4">Home</a>
+                <a href="menu.html" class="mx-4">Menu</a>
+                <a href="about.html" class="mx-4">About</a>
+                <a href="contact.html" class="mx-4">Contact</a>
+                <a href="reserve.html" class="mx-4">Reservation</a>
+                <a href="gallery.html" class="mx-4">Gallery</a>
+                <a href="events.html" class="mx-4">Events</a>
+                <a href="blogs.html" class="mx-4">Blogs</a>
+            </div>
+        </nav>
+        <h1 class="text-3xl font-bold text-gray-800 mb-5 py-4 text-center">Make a Reservation</h1>
+        <form class="bg-white rounded-lg shadow-md p-8 mx-auto w-full md:w-1/2">
+            <div class="mb-6">
+                <label class="block font-bold mb-2" for="name">Name:</label>
+                <input
+                    class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:border-indigo-500"
+                    type="text" id="name" name="name" required>
+            </div>
+            <div class="mb-6">
+                <label class="block font-bold mb-2" for="email">Email:</label>
+                <input
+                    class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:border-indigo-500"
+                    type="email" id="email" name="email" required>
+            </div>
+            <div class="mb-6">
+                <label class="block font-bold mb-2" for="phone">Phone Number:</label>
+                <input
+                    class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:border-indigo-500"
+                    type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="mb-6">
+                <label class="block font-bold mb-2" for="date">Date:</label>
+                <input
+                    class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:border-indigo-500"
+                    type="date" id="date" name="date" required>
+            </div>
+            <div class="mb-6">
+                <label class="block font-bold mb-2" for="time">Time:</label>
+                <input
+                    class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:border-indigo-500"
+                    type="time" id="time" name="time" required>
+            </div>
+            <div class="mb-6">
+                <label class="block font-bold mb-2" for="party-size">Party Size:</label>
+                <input
+                    class="w-full px-3 py-2 border border-gray-400 rounded-md focus:outline-none focus:border-indigo-500"
+                    type="number" id="party-size" name="party-size" min="1" max="20" required>
+            </div>
+            <div class="flex justify-center mt-8">
+                <button type="submit" class="bg-indigo-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    Submit Reservation
+                </button>
+            </div>
+        </form>
+    </div>
+    <footer class="bg-gray-900 text-white bottom-0 w-full mt-4 py-4 px-8">
+        <p class="text-center">&copy; 2023 Diploma Chai Wala. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
